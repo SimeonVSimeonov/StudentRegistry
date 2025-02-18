@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: svsimeonoff/StudentRegistry:{tag}
+    image: svsimeonoff/student-registry:a
     ports:
       - "3030:3030" # Map port 3030 on the host to port 3030 in the container
     environment:
